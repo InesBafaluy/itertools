@@ -4,5 +4,5 @@ def reduce(predicate, iterable, initial=None):
   else : acc = initial
 
   for x in iterable :  
-    acc = acc + x
+    acc = predicate(acc,x)
   return acc
