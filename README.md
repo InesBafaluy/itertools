@@ -1,7 +1,7 @@
 # Itertools Library
 
 ## Purpose
-Perform a specific operation without the need for defining a full-fledged named function or writing endless for loops.
+The library contains a set of lambda functions, also called anonymous functions, that allow us to perform a specific operation without the need of defining a full-fledged named function or writing endless loops.
 
 ## Set of lambda functions :
 
@@ -9,16 +9,16 @@ Perform a specific operation without the need for defining a full-fledged named 
 Transform or modify each element in an iterable based on a rule or operation.
 
 ### 2. reduce
-Perform cumulative computations like finding the sum or product.
+Perform cumulative computations like finding the sum or the product.
 
 ### 3. filter
 Selectively extract elements from an iterable based on a condition.
 
 ### 4. find_index
-Locate the position of a particular element within a list or iterable.
+Locate the position of the first element that satisfies a given condition.
 
 ### 5. find
-Search for a specific element and return it if found.
+Search for the first element that satisfies a given condition.
 
 ### 6. group
 Categorize or group elements together based on a common property.
