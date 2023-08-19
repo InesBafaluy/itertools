@@ -1,5 +1,7 @@
 def filter(predicate, iterable):
+  new_list = []
   for x in iterable :
-    if not predicate(x):
-      iterable.remove(x)
-  return iterable
+    print(predicate(x))
+    if predicate(x):
+      new_list.append(x)
+  return new_list
